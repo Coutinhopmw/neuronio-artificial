@@ -72,6 +72,10 @@ modelo.summary()
 
 
 
+# X → entradas (por exemplo, a matriz TF-IDF)
+# y → rótulos (ex: 0 = antigo testamento, 1 = novo testamento)
+
+modelo.fit(X, y, epochs=10, batch_size=32)
 
 
 # FUNÇÃO DE ATIVAÇÃO DO NEURÔNIO
